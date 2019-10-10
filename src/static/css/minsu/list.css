@@ -1,0 +1,407 @@
+.minsu_list_box {
+  background-color: #dedcdd;
+}
+.minsu_list_box .minsu_list_time {
+  width: 100%;
+  height: 110px;
+  background-color: #a1a1a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_time form {
+  display: flex;
+}
+.minsu_list_box .minsu_list_time form .el-input__inner {
+  background-color: #b4b4b4;
+  border: 1px solid #fff;
+}
+.minsu_list_box .minsu_list_time form input::-webkit-input-placeholder {
+  color: white;
+}
+.minsu_list_box .minsu_list_time form .el-input__prefix {
+  color: white;
+}
+.minsu_list_box .minsu_list_time form .el-input {
+  width: 235px;
+  height: 52px;
+  margin-right: 10px;
+}
+.minsu_list_box .minsu_list_time form .el-input .el-input__inner {
+  height: 50px;
+}
+.minsu_list_box .minsu_list_time form .minsu_list_time_submit {
+  height: 50px;
+  width: 60px;
+  background-color: #ffa200;
+  border: 0;
+  border-radius: 5px;
+}
+.minsu_list_box .minsu_list_time form .minsu_list_time_submit img {
+  width: 25px;
+}
+.minsu_list_box .minsu_list_content {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.minsu_list_box .minsu_list_content .w {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main {
+  width: 1000px;
+  margin-right: 1.5%;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info {
+  width: 100%;
+  background: white;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li {
+  display: flex;
+  font-size: 14px;
+  padding-top: 40px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li p {
+  margin-left: 30px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li p a {
+  color: black;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li p a:hover {
+  color: #ffa200;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li p:nth-of-type(2) a {
+  color: #ffa200;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_info .minsu_list_info_area ul li:nth-of-type(3) {
+  padding-bottom: 40px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_title {
+  margin: 40px 0 10px 0;
+  font-size: 14px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_li {
+  margin-bottom: 25px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box {
+  background: white;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief {
+  display: flex;
+  position: relative;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_img img {
+  width: 379px;
+  height: 282px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words {
+  margin-left: 50px;
+  position: relative;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words .words_title {
+  margin-top: 30px;
+  font-size: 22px;
+  color: black;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words .coupon {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  width: 23px;
+  height: 23px;
+  background: red;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words .addressIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../img/minsu/list/icon.png);
+  background-position: -15px -881px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70px;
+  left: -3px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words .address {
+  color: #929292;
+  font-size: 16px;
+  margin: 15px 0 25px 25px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words ul li {
+  font-size: 14px;
+  color: #6d6d6d;
+  margin-bottom: 10px;
+  width: 535px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .minsu_list_details_content_box_brief_words ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  padding-bottom: 3px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .priceAccess {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  text-align: right;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .priceAccess p:nth-of-type(1) {
+  color: #ffa200;
+  font-size: 18px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .priceAccess p:nth-of-type(1) span:nth-of-type(1) {
+  font-size: 30px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_brief .priceAccess p:nth-of-type(2) {
+  font-size: 15px;
+  color: #929292;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul {
+  background: white;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title {
+  background: #d3d3d3;
+  display: flex;
+  height: 30px;
+  position: relative;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title p {
+  width: 85.94px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title p:nth-of-type(1) {
+  width: 226.63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title p:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title p:nth-of-type(5) {
+  width: 135.03px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title p:nth-of-type(6) {
+  width: 128.88px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title .moreRoom_button_hide {
+  height: 30px;
+  width: 30px;
+  background: #555555;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul .minsu_list_details_content_box_specs_title .moreRoom_button_hide img {
+  width: 110px;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li {
+  height: 52px;
+  border-bottom: 1px solid #ccc;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div {
+  display: flex;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p {
+  width: 91px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 52px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(1) {
+  width: 240px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(5) {
+  width: 143px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(6) {
+  width: 128px;
+  color: #ff8585;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(6) span:nth-of-type(1) {
+  font-size: 19px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(6) span:nth-of-type(2) {
+  font-size: 13px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(7) {
+  width: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_specs ul li div p:nth-of-type(7) span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 30px;
+  background: #ff8585;
+  border-radius: 5px;
+  color: white;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom {
+  height: 31px;
+  display: flex;
+  justify-content: flex-end;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom .moreRoom_button_show {
+  display: flex;
+  cursor: pointer;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom .moreRoom_button_show p:nth-of-type(1) {
+  font-size: 17px;
+  line-height: 31px;
+  margin-right: 10px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom .moreRoom_button_show p:nth-of-type(2) {
+  height: 31px;
+  width: 31px;
+  background: #555555;
+  overflow: hidden;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom .moreRoom_button_show p:nth-of-type(2) img {
+  width: 110px !important;
+  margin-top: -54px;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_details .minsu_list_details_content .minsu_list_details_content_box .minsu_list_details_content_box_moreRoom .moreRoom_button_show:hover p:nth-of-type(1) {
+  color: #6b6bff;
+}
+.minsu_list_box .minsu_list_content .w .minsu_list_main .minsu_list_page {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar {
+  width: 19.25%;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask {
+  height: 430px;
+  background: white;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_title {
+  display: flex;
+  height: 40px;
+  background: #7a7a7a;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_title div:nth-of-type(1) {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_title div:nth-of-type(1) p {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  background: white;
+  border-radius: 15px;
+  margin: 0 10px 0 10px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_title div:nth-of-type(2) {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content .seamless_warp {
+  height: 385px;
+  overflow: hidden;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content ul {
+  width: 100%;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content ul li {
+  margin-top: 15px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content ul li p:nth-of-type(1) {
+  font-size: 15px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content ul li p:nth-of-type(1) span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  background: #7a7a7a;
+  margin: 0 10px 1.5px 10px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_ask .minsu_list_ask_content ul li p:nth-of-type(2) {
+  font-size: 14px;
+  color: #818181;
+  margin: 0 2px 0 27px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot {
+  margin-top: 40px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li {
+  margin-bottom: 25px;
+  background: white;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div {
+  position: relative;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(1) .hot_content-img {
+  width: 100%;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(2) {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 14px;
+  color: white;
+  width: 23px;
+  height: 23px;
+  background: red;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(3) {
+  font-size: 20px;
+  color: #585858;
+  margin: 10px 0 5px 10px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(4) {
+  font-size: 14px;
+  color: #919191;
+  margin: 0 0 0 10px;
+  padding-bottom: 10px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(5) {
+  position: absolute;
+  right: 22px;
+  bottom: 4px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(5) span:nth-of-type(1) {
+  color: #ffa200;
+  font-size: 16px;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(5) .minsu_list_hot_content_price {
+  font-size: 25px;
+  color: #ffa200;
+}
+.minsu_list_box .minsu_list_content .minsu_list_sidebar .minsu_list_hot .minsu_list_hot_content ul li div p:nth-of-type(5) span:nth-of-type(3) {
+  position: absolute;
+  bottom: 7px;
+}

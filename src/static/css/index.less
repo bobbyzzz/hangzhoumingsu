@@ -1,0 +1,226 @@
+.box {
+
+    // 轮播图盒子
+    .slideBox {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+
+        .imgBox {
+            width: 100%;
+            height: 400px;
+
+            a {
+                width: 100%;
+                height: 400px;
+
+                .bacImg {
+                    height: 100%;
+                    // width: 100%;
+                    background-repeat: no-repeat;
+                    cursor: pointer;
+                    background-size: cover;
+                    position: relative;
+                    background-position: center center;
+
+                    .banner_title {
+                        span {
+                            font-size: 20px;
+                            color: #fff;
+                            font-weight: 500;
+                            position: absolute;
+                            bottom: 12%;
+                            right: 8%;
+                        }
+
+                        i {
+                            padding: 10px;
+                            border: 3px solid #fff;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 目的地盒子
+    .address {
+        position: relative;
+        width: 100%;
+        height: 260px;
+
+        h4 {
+            font-size: 35px;
+            font-weight: 500;
+            color: rgba(54, 54, 54, 0.568);
+            display: flex;
+            ;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        ul {
+            li {
+                a {
+                    .icon_img {
+                        .icon_area {
+                            background-image: url(../img/background/icon-area.png);
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            background-size: 90%;
+                            background-position: 60px 90px;
+                            background-repeat: no-repeat;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 视频盒子
+    .video {
+        width: 100%;
+
+        h4 {
+            font-size: 35px;
+            font-weight: 500;
+            color: rgba(54, 54, 54, 0.568);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        ul {
+            margin-bottom: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                width: 400px;
+                height: 300px;
+
+                .video_img {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+
+                    .wrap-play{
+                        width: 90px;
+                        height: 90px;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .video_title1 {
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    // 推荐盒子
+    .forYou {
+        width: 100%;
+
+        h4 {
+            font-size: 35px;
+            font-weight: 500;
+            color: rgba(54, 54, 54, 0.568);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        ul {
+            width: 100%;
+            margin-bottom: 50px;
+
+            li {
+                margin-bottom: 15px;
+                position: relative;
+                width: 1400px;
+                height: 315px;
+                display: flex;
+                justify-content: space-around;
+
+                .li_l {
+                    width: 40%;
+                    height: 315px;
+                    .li_title {
+                        font-size: 35px;
+                    }
+
+                    .li_content {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        // -webkit-box-orient: vertical;
+                    }
+                    .more{
+                        color: #fff;
+                        font-size: 20px;
+                        padding: 5px 10px;
+                        background-color: aqua;
+                        position: absolute;
+                        top: 55%;
+                    }
+
+                    a {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                .li_r {
+                    
+                    width: 40%;
+                    height: 315px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .li_title {
+                        font-size: 35px;
+                    }
+
+                    .li_content {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+                    .more{
+                        color: #fff;
+                        font-size: 20px;
+                        padding: 5px 10px;
+                        background-color: aqua;
+                        position: absolute;
+                        top: 55%;
+                    }
+                }
+            }
+        }
+    }
+}

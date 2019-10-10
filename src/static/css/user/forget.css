@@ -1,0 +1,137 @@
+.forget-box {
+  width: 100%;
+}
+.forget-box .login {
+  width: 100%;
+  height: 100%;
+}
+.forget-box .login-table {
+  z-index: 100;
+  width: 386px;
+  height: 443px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.forget-box .login-table .login-img {
+  width: 382px;
+  height: 45px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forget-box .login-table .login-img img {
+  width: 210px;
+  height: 41px;
+}
+.forget-box .login-table .login-tab {
+  width: 386px;
+  height: 360px;
+  background: url(../../img/login/c_2.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forget-box .login-table .login-tab .login-tab-login {
+  width: 378px;
+  height: 354px;
+  background-color: #fff;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header {
+  padding: 0 25px !important;
+  height: 60px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header .el-tabs__nav-wrap {
+  height: 100%;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll {
+  height: 100%;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll .el-tabs__nav {
+  height: 100%;
+  width: 100% !important;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll .el-tabs__nav .el-tabs__item {
+  height: 100%;
+  line-height: 60px;
+  width: 100% !important;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll .el-tabs__nav .el-tabs__active-bar {
+  display: none;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content {
+  padding: 0 25px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane {
+  margin-top: 10px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .account-box {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .account-box input {
+  outline: none;
+  height: 40px;
+  width: 80%;
+  margin-left: 15px;
+  padding-left: 10px;
+  border: 1px solid #d2d2d2;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .button-box {
+  width: 100%;
+  height: 36px;
+  margin-top: 30px;
+  background-color: #22d3c5;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .forget-box {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .forget-box span:nth-of-type(1) {
+  color: #22d3c5;
+  cursor: pointer;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .verification-box {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 30px;
+  display: flex;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .verification-box input {
+  outline: none;
+  height: 40px;
+  width: 40%;
+  margin-left: 18px;
+  padding-left: 10px;
+  border: 1px solid #d2d2d2;
+  margin-right: 5px;
+}
+.forget-box .login-table .login-tab .login-tab-login .el-tabs__content .el-tab-pane .verification-box .code-style {
+  width: 127px;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  font-style: italic;
+  font-family: Arial, 微软雅黑;
+  text-align: center;
+  background-color: #d2d2d2;
+  cursor: pointer;
+}

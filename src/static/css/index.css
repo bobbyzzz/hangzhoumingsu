@@ -1,0 +1,178 @@
+.box .slideBox {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.box .slideBox .imgBox {
+  width: 100%;
+  height: 400px;
+}
+.box .slideBox .imgBox a {
+  width: 100%;
+  height: 400px;
+}
+.box .slideBox .imgBox a .bacImg {
+  height: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+.box .slideBox .imgBox a .bacImg .banner_title span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  bottom: 12%;
+  right: 8%;
+}
+.box .slideBox .imgBox a .bacImg .banner_title i {
+  padding: 10px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.box .address {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+.box .address h4 {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(54, 54, 54, 0.568);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.box .address ul li a .icon_img .icon_area {
+  background-image: url(../img/background/icon-area.png);
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: 90%;
+  background-position: 60px 90px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.box .video {
+  width: 100%;
+}
+.box .video h4 {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(54, 54, 54, 0.568);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.box .video ul {
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box .video ul li {
+  width: 400px;
+  height: 300px;
+}
+.box .video ul li .video_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.box .video ul li .video_img .wrap-play {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.box .video ul li .video_img img {
+  width: 100%;
+  height: 100%;
+}
+.box .video ul li .video_title1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.box .forYou {
+  width: 100%;
+}
+.box .forYou h4 {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(54, 54, 54, 0.568);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.box .forYou ul {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.box .forYou ul li {
+  margin-bottom: 15px;
+  position: relative;
+  width: 1400px;
+  height: 315px;
+  display: flex;
+  justify-content: space-around;
+}
+.box .forYou ul li .li_l {
+  width: 40%;
+  height: 315px;
+}
+.box .forYou ul li .li_l .li_title {
+  font-size: 35px;
+}
+.box .forYou ul li .li_l .li_content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+}
+.box .forYou ul li .li_l .more {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: aqua;
+  position: absolute;
+  top: 55%;
+}
+.box .forYou ul li .li_l a img {
+  width: 100%;
+  height: 100%;
+}
+.box .forYou ul li .li_r {
+  width: 40%;
+  height: 315px;
+}
+.box .forYou ul li .li_r img {
+  width: 100%;
+  height: 100%;
+}
+.box .forYou ul li .li_r .li_title {
+  font-size: 35px;
+}
+.box .forYou ul li .li_r .li_content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.box .forYou ul li .li_r .more {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: aqua;
+  position: absolute;
+  top: 55%;
+}

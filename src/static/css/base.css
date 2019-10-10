@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.w {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    /* vertical-align: bottom; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.fix {
+    overflow: hidden;
+    clear: both;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}

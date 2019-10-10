@@ -1,0 +1,392 @@
+.drBanner .bannpic {
+  width: 100%;
+  height: auto;
+}
+.fullBody {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  min-width: 1000px;
+  overflow: hidden;
+}
+.centerBody {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  padding: 0 60px;
+}
+.drBox .centerBody {
+  overflow: hidden;
+}
+.drBox .dr_list {
+  width: 104%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 100px;
+}
+.drBox .dr_list li {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 40px 3% 0 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.zwfbox {
+  position: relative;
+}
+.zwfimg {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  position: relative !important;
+}
+.dr_list .info {
+  color: #333;
+  z-index: 1;
+  position: relative;
+}
+.dr_list .info .person {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+.clear {
+  zoom: 1;
+}
+.dr_list .info .person .tx {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+.dr_list .info .person .tx img {
+  width: 100px;
+  height: 100px;
+}
+.dr_list .info .person h6 {
+  float: left;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+.dr_list .tit {
+  font-size: 20px;
+  line-height: 50px;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dr_list .intro {
+  color: #999;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 76px;
+}
+.centerBody {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  padding: 0 60px;
+}
+.swpBox .zwfImges {
+  width: 100%;
+  height: auto;
+}
+.ghSwiper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.zwfpic {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.allbox3 .con .tit1 {
+  width: auto;
+  height: 53px;
+  display: block;
+  margin: 40px auto;
+}
+.allbox3 .con .textbox {
+  overflow: hidden;
+}
+.allbox3 .con .textbox .left {
+  float: left;
+  width: 48%;
+  background: url(http://www.hzminsu.cn/special/msxh/images/textbg.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 10px;
+  line-height: 26px;
+  text-indent: 2em;
+  margin: 20px 0 0 10px;
+}
+.allbox3 .con .textbox .right {
+  float: right;
+  width: 42%;
+}
+.allbox3 .con .textbox .right img {
+  width: 100%;
+  height: auto;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+.allbox4 {
+  width: 100%;
+  height: 530px;
+  background: url(http://www.hzminsu.cn/special/msxh/images/msbg03.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding: 1px;
+}
+.con {
+  height: 100%;
+  margin: 0 auto;
+}
+.allbox4 .con .tit1 {
+  width: auto;
+  height: 53px;
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 20px;
+}
+.allbox4 .con .texts {
+  text-align: center;
+  color: white;
+}
+.allbox4 .con .list {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.allbox4 .con .list li {
+  width: 48%;
+  margin-bottom: 15px;
+  position: relative;
+  height: 70px;
+}
+.allbox4 .con .list li .i_li1 {
+  background-position: 3px -73px;
+}
+.allbox4 .con .list li .i_li1 {
+  background-position: 3px -73px;
+}
+.allbox4 .con .list li .iconL {
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(http://www.hzminsu.cn/special/msxh/images/iconL.png) no-repeat;
+  background-size: 320px;
+}
+.allbox4 .con .list li .active {
+  margin-top: 10px;
+}
+.allbox4 .con .list li .right .p1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.allbox4 .con .list li .right {
+  position: absolute;
+  left: 70px;
+  top: 0;
+  color: white;
+  font-size: 12px;
+}
+.allbox5 {
+  width: 100%;
+  height: 350px;
+  background-color: #F8F8FA;
+}
+.allbox5 .con {
+  height: auto;
+  padding: 1px;
+}
+.allbox5 .con .tit1 {
+  width: auto;
+  height: 61px;
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 20px;
+}
+.allbox5 .con .b_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+.allbox5 .con .b_box .leftbox {
+  background-color: white;
+  width: 40%;
+  font-size: 12px;
+  overflow: hidden;
+  height: 150px;
+  border: 1px solid #D6D6D6;
+}
+.allbox5 .con .b_box .leftbox .left {
+  float: left;
+  width: 120px;
+  height: 100%;
+  background: url(http://www.hzminsu.cn/special/msxh/images/btextbg01.png) no-repeat;
+  background-size: 100% 100%;
+}
+.allbox5 .con .b_box .leftbox .left .name {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 1px solid white;
+  margin: 20px auto;
+  margin-top: 35px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.allbox5 .con .b_box .leftbox .right {
+  float: left;
+  padding: 10px;
+  line-height: 18px;
+}
+.allbox5 .con .b_box .leftbox .right .i_qi {
+  background-position: -14px -207px;
+}
+.allbox5 .con .b_box .leftbox .right .iconL {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url(http://www.hzminsu.cn/special/msxh/images/iconL.png) no-repeat;
+  background-size: 303px;
+  vertical-align: sub;
+}
+i {
+  font-style: normal;
+}
+.allbox5 .con .b_box .rightbox {
+  background-color: white;
+  width: 40%;
+  font-size: 12px;
+  overflow: hidden;
+  height: 150px;
+}
+.allbox5 .con .b_box .rightbox .left {
+  float: left;
+  width: 120px;
+  height: 100%;
+  background: url(http://www.hzminsu.cn/special/msxh/images/btextbg02.png) no-repeat;
+  background-size: 100% 100%;
+}
+.allbox5 .con .b_box .rightbox .left .name {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 1px solid white;
+  margin: 20px auto;
+  margin-top: 35px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.allbox5 .con .b_box .rightbox .right {
+  float: left;
+  padding: 10px;
+  line-height: 18px;
+  padding-top: 30px;
+}
+.allbox5 .con .b_box .rightbox .right .iconL {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url(http://www.hzminsu.cn/special/msxh/images/iconL.png) no-repeat;
+  background-size: 303px;
+  vertical-align: sub;
+}
+.allbox5 .con .b_box .rightbox .right .i_qi2 {
+  background-position: -51px -208px;
+}
+.bottom {
+  width: 100%;
+  height: 200px;
+  background: url(http://www.hzminsu.cn/special/msxh/images/bobg.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.bottom img {
+  display: block;
+  margin: 10px auto;
+  width: 124px;
+}
+.allbox4 .con .list li .i_li1 {
+  background-position: 3px -73px;
+}
+.allbox4 .con .list li .i_li2 {
+  background-position: 4px -134px;
+}
+.allbox4 .con .list li .i_li3 {
+  background-position: -73px -74px;
+}
+.allbox4 .con .list li .i_li4 {
+  background-position: -73px -137px;
+}
+.allbox4 .con .list li .i_li5 {
+  background-position: -161px -75px;
+}
+.allbox4 .con .list li .i_li6 {
+  background-position: -160px -137px;
+}
+.allbox4 .con .list li .i_li7 {
+  background-position: -245px -75px;
+}
+.allbox4 .con .list li .i_li8 {
+  background-position: -244px -137px;
+}
+.allbox4 .con .texts {
+  text-align: center;
+  color: white;
+}
+.el-pagination {
+  text-align: center;
+  margin-bottom: 30px !important;
+}

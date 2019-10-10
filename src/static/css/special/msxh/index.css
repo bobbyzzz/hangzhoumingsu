@@ -1,0 +1,80 @@
+.allbox2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.allbox2 .bgs {
+  width: 100%;
+  height: auto;
+}
+.allbox2 .logo2 {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translateX(-50%);
+}
+.allbox2 .down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
+}
+.allbox3 {
+  width: 100%;
+  height: 700px;
+  background: url(http://www.hzminsu.cn/special/msxh/images/msbg02.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding: 1px;
+}
+.allbox3 .con {
+  margin: 0 auto;
+  height: 100%;
+}
+.allbox3 .con .uls {
+  width: 700px;
+  margin: 30px auto;
+  height: auto;
+  overflow: hidden;
+}
+.allbox3 .con .uls .li1 {
+  background: url(http://www.hzminsu.cn/special/msxh/images/conli1.png) no-repeat;
+}
+.allbox3 .con .uls li {
+  width: 320px;
+  height: 80px;
+  background-size: 100% 100% !important;
+  margin-top: 15px;
+}
+.allbox3 .con .uls .fl {
+  padding-left: 75px;
+}
+.allbox3 .con .uls li .p1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.allbox3 .con .uls .li1 .p2 {
+  margin-top: 8px;
+}
+.allbox3 .con .uls li .p2 {
+  font-size: 13px;
+}
+.allbox3 .con .uls .fr {
+  padding-right: 75px;
+}
+.allbox3 .con .uls .li2 {
+  margin-top: -78px;
+  margin-left: 378px;
+  background: url(http://www.hzminsu.cn/special/msxh/images/conli2.png) no-repeat;
+}
+.allbox3 .con .uls .li3 {
+  background: url(http://www.hzminsu.cn/special/msxh/images/conli3.png) no-repeat;
+}
+.allbox3 .con .uls .li4 {
+  margin-left: 378px;
+  margin-top: -76px;
+  background: url(http://www.hzminsu.cn/special/msxh/images/conli4.png) no-repeat;
+}

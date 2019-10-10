@@ -1,0 +1,164 @@
+.policy-box .topbanner {
+  position: relative;
+  display: block;
+  height: 146px;
+  background-image: url(http://www.hzminsu.cn/images/policy.png);
+  background-size: cover;
+  background-position: center center;
+}
+.policy-box .topbanner .center {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  padding: 0 60px;
+  height: 146px;
+}
+.policy-box .topbanner .center .tit {
+  color: #fff;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  margin-top: -30px;
+}
+.policy-box .topbanner .center .tit h5 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+}
+.policy-box .topbanner .center .tit p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.policy-box .fullBody {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  min-width: 1000px;
+  overflow: hidden;
+}
+.policy-box .fullBody .centerBody {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  padding: 0 60px;
+}
+.policy-box .fullBody .centerBody .list .item {
+  position: relative;
+  padding: 25px 0;
+  border-bottom: 1px solid #ECECEC;
+  overflow: hidden;
+}
+.policy-box .fullBody .centerBody .list .item .imgWrap {
+  width: 270px;
+  height: 156px;
+  position: relative;
+}
+.policy-box .fullBody .centerBody .list .item .imgWrap .zwfpic {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.policy-box .fullBody .centerBody .list .item .info {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 100%;
+  height: 156px;
+  padding-left: 290px;
+}
+.policy-box .fullBody .centerBody .list .item .info h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  height: 30px;
+  line-height: 30px;
+}
+.policy-box .fullBody .centerBody .list .item .info h3 a {
+  color: #333;
+}
+.policy-box .fullBody .centerBody .list .item .info .con {
+  font-size: 16px;
+  color: #444;
+  line-height: 26px;
+  height: 82px;
+  overflow: hidden;
+}
+.policy-box .fullBody .centerBody .list .item .info .bottoms {
+  width: 100%;
+  height: 30px;
+  line-height: 10px;
+  color: #999;
+  position: relative;
+}
+.policy-box .fullBody .centerBody .list .item .info .bottoms span {
+  font-size: 16px;
+}
+.policy-box .fullBody .centerBody .list .item .info .bottoms span:first-child {
+  margin-right: 10px;
+}
+.policy-box .fullBody .centerBody .list .item .info .bottoms .getMore {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  background: #ffa200;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.policy-box .fullBody .pagination {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy-box .fullBody .pagination .btn-prev,
+.policy-box .fullBody .pagination .btn-next {
+  width: 26px;
+  height: 30px;
+  background-color: #ececec;
+  min-width: 0 !important;
+}
+.policy-box .fullBody .pagination .btn-prev .el-icon-arrow-left,
+.policy-box .fullBody .pagination .btn-next .el-icon-arrow-left,
+.policy-box .fullBody .pagination .btn-prev .el-icon-arrow-right,
+.policy-box .fullBody .pagination .btn-next .el-icon-arrow-right {
+  font-size: 16px;
+}
+.policy-box .fullBody .pagination .el-pager {
+  height: 30px;
+  margin: 0 5px;
+}
+.policy-box .fullBody .pagination .el-pager li {
+  border: 1px #ffa200 solid;
+  width: 28px;
+  min-width: 0;
+  padding: 0;
+}
+.policy-box .fullBody .pagination .el-pager .number,
+.policy-box .fullBody .pagination .el-pager .active {
+  text-align: center;
+  color: #ffa200;
+}
+.policy-box .fullBody .pagination .btn-next {
+  padding-left: 5px;
+}

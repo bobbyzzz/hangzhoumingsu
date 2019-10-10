@@ -1,0 +1,93 @@
+.around-box {
+  width: 100%;
+}
+.around-box .around-header {
+  width: 100%;
+}
+.around-box .around-header img {
+  width: 100%;
+}
+.around-box .around-banner-box {
+  width: 100%;
+  padding: 73px 61px 30px;
+}
+.around-box .around-banner-box .around-banner {
+  width: 100%;
+  display: flex;
+}
+.around-box .around-banner-box .around-banner .around-banner-list {
+  width: 31.2%;
+  margin-right: 40px;
+  box-shadow: 0 0 5px 3px #ddd;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a {
+  width: 100%;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a img {
+  width: 100%;
+  height: 225px;
+  border-radius: 4px;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a .banner-list-title {
+  height: 58px;
+  line-height: 58px;
+  font-size: 20px;
+  color: black;
+  padding-left: 15px;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a .around-banner-list-box {
+  background-color: #f8f8f8;
+  padding-top: 8px;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a .around-banner-list-box .banner-list-zhou {
+  padding-left: 15px;
+  color: #23b7be;
+  height: 30px;
+  font-size: 14px;
+}
+.around-box .around-banner-box .around-banner .around-banner-list a .around-banner-list-box .banner-list-text {
+  padding: 6px 25px 20px;
+  color: black;
+  font-size: 14px;
+  line-height: 23px;
+}
+.around-box .el-pagination {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.around-box .el-pagination .btn-prev,
+.around-box .el-pagination .btn-next {
+  width: 26px;
+  height: 30px;
+  background-color: #ececec;
+  min-width: 0 !important;
+}
+.around-box .el-pagination .btn-prev .el-icon-arrow-left,
+.around-box .el-pagination .btn-next .el-icon-arrow-left,
+.around-box .el-pagination .btn-prev .el-icon-arrow-right,
+.around-box .el-pagination .btn-next .el-icon-arrow-right {
+  font-size: 16px;
+}
+.around-box .el-pagination .el-pager {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 1px #ffa200 solid;
+}
+.around-box .el-pagination .el-pager li {
+  width: 28px;
+  min-width: 0;
+  padding: 0;
+}
+.around-box .el-pagination .el-pager .number,
+.around-box .el-pagination .el-pager .active {
+  text-align: center;
+  color: #ffa200;
+}
+.around-box .el-pagination .btn-next {
+  padding-left: 5px;
+}
